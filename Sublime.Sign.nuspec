@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial version of Sublime IT's signing package.</releaseNotes>
+    <copyright>Copyright 2023</copyright>
+    <tags>SublimeIT Security Signature</tags>
+  </metadata>
+</package>
