@@ -15,13 +15,14 @@ public class HmacStringSignature : ISignatureCreator<string>, ISignatureValidato
     {
         var unsignedBytes = Encoding.UTF8.GetBytes(message);
         var signatureBytes = _bufferSigner.Sign(unsignedBytes);
-        return BitConverter.ToString(signatureBytes).Replace("-", "").ToLower();
+        var signature = Convert.ToBase64String(signatureBytes);
+        return signature;
     }
 
     public bool Validate(string message, string signature)
     {
         var unsignedBytes = Encoding.UTF8.GetBytes(message);
-        var signatureBytes = Encoding.UTF8.GetBytes(signature);
+        var signatureBytes = Convert.FromBase64String(signature);        
         return _bufferSigner.Validate(unsignedBytes, signatureBytes);
     }
 }

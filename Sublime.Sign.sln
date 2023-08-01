@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sublime.Sign", "src\Sublime.Sign.csproj", "{9A591BCF-70C9-4544-9492-FAB76FCBF6D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{45DC4A32-FF60-4EAF-A406-6CB159B611C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A591BCF-70C9-4544-9492-FAB76FCBF6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A591BCF-70C9-4544-9492-FAB76FCBF6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A591BCF-70C9-4544-9492-FAB76FCBF6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A591BCF-70C9-4544-9492-FAB76FCBF6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DC4A32-FF60-4EAF-A406-6CB159B611C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DC4A32-FF60-4EAF-A406-6CB159B611C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DC4A32-FF60-4EAF-A406-6CB159B611C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DC4A32-FF60-4EAF-A406-6CB159B611C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
